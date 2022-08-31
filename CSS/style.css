@@ -81,6 +81,13 @@ header p{
     font-size: 1.2em;
 }
 
+header p strong{
+    border-radius: 3px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.608);
+    color: black;
+}
+
 
 div#pain2021{
     border-radius: 5px;
