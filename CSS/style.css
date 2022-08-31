@@ -18,9 +18,10 @@
 }
 
 header{
-    background-color: var(--corverde);
+    background-image: linear-gradient(to top, #a8f852, #a8f852, transparent );
     text-align: center;
     margin-bottom: 50px;
+    box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.611);
 }
 
 header h1:hover{
@@ -58,14 +59,18 @@ header h1{
 }
 
 header p{
+    font-size: 1.2em;
     padding-top: 10px;
     padding-bottom: 30px;
-    color: #940700;
+    color: black;
     font-size: 1.2em;
 }
 
 
 div#pain2021{
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 14px black;
+    border: 2px solid black;
     margin: auto;
     max-width: 1300px;
     width: 100%;
@@ -79,6 +84,31 @@ div#pain2021{
 }
 
 div section{
+    text-shadow: 2px 2px 7px rgba(255, 255, 255, 0.747);
     display: inline-block;
-    background-color: rgba(245, 245, 245, 0.503);
+    margin: auto;
+    margin-left: 10px;
+    padding: 10px;
+    max-width: 400px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.759);
+    color: white;
+
+    position: absolute;
+    top: 65%;
+}
+
+main {
+    font-family: var(--font1);
+}
+
+main > p{
+    padding: 0px 40px;
+    text-indent: 40px;
+    font-size: calc(1.1em + 1vw);
+    line-height: 1.5em;
+    margin: auto;
+    max-width: 700px;
+    background-color: black;
+    color: #00E055;
 }
